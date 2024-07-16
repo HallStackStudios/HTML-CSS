@@ -30,5 +30,3 @@ agora aprendi que para lançar algo novo para o meu repositório local, devo mod
 <a href="Exercicios/ex021/index.html"> Executar o exercício 21
 
 <a href="Exercicios/ex022/index.html"> Executar o exercício 22
-
-<a href="Exercicios/ex023cl/index.html"> Executar o exercício 23
