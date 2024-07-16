@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exemplo de Agrupamento</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        /* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+main {
+    padding: 1em;
+    border-radius: 50%;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+section#contact form {
+    display: flex;
+    flex-direction: column;
+}
+
+section#contact fieldset {
+    margin-bottom: 1em;
+}
+
+section#contact label {
+    margin: 0.5em 0 0.2em;
+}
+
+section#contact textarea {
+    height: 100px;
+}
+
+aside {
+    background-color: #f4f4f4;
+    padding: 1em;
+    margin-bottom: 2em;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+nav {
+    box-shadow: 2px 2px 3px rgb(43, 43, 43);
+}
+#bola {
+    margin: 5px;
+    border-radius: 50%;
+    height: 100px;
+    width: 100px;
+    margin: 10px;
+    background-color: #333;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Minha Página de Exemplo</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#services">Serviços</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="home">
+            <article>
+                <h2>Bem-vindo ao Meu Site</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.</p>
+            </article>
+        </section>
+
+        <section id="about">
+            <article>
+                <h2>Sobre Nós</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam scelerisque interdum felis, ac tincidunt nunc scelerisque ut.</p>
+            </article>
+        </section>
+
+        <section id="services">
+            <article>
+                <h2>Nossos Serviços</h2>
+                <ul>
+                    <li>Desenvolvimento Web</li>
+                    <li>Design Gráfico</li>
+                    <li>Consultoria de TI</li>
+                </ul>
+            </article>
+        </section>
+
+        <aside>
+            <h3>Notícias Recentes</h3>
+            <ul>
+                <li>Notícia 1</li>
+                <li>Notícia 2</li>
+                <li>Notícia 3</li>
+            </ul>
+        </aside>
+
+        <section id="contact">
+            <article>
+                <h2>Entre em Contato</h2>
+                <form>
+                    <fieldset>
+                        <legend>Informações Pessoais</legend>
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="name">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+                    </fieldset>
+                    <fieldset>
+                        <legend>Mensagem</legend>
+                        <label for="message">Mensagem:</label>
+                        <textarea id="message" name="message"></textarea>
+                    </fieldset>
+                    <button type="submit">Enviar</button>
+                </form>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Minha Empresa. Todos os direitos reservados.</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
