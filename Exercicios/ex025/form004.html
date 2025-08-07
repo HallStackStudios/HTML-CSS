@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+<body>
+    <h1>Exemplo de formulario</h1>
+    <form action="cadastro.php" method="get">
+        <fieldset>
+            <legend>Formulate the formulario</legend>
+                <p>
+                    <label for="iemail">Seu Email aqui:</label>
+                    <input type="email" name="email" id="iemail" required>
+                </p>
+                <p>
+                    <label for="tel">Seu telefone aqui:</label>
+                    <input type="tel" name="tel" id="itel" required>
+                </p>
+                <p>
+                    <input type="submit" value="Submitar">
+                    <input type="reset" value="clean-up">
+                </p>
+        </fieldset>
+    </form>
+</body>
+</html>
